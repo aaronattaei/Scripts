@@ -73,4 +73,109 @@ def fetch_parkas():
 
 # ---- State handling -------------------------------------------------------
 
-def load_json(path,
+def load_json(path, default):
+    if path.exists():
+        return json.loads(path.read_text())
+    return default
+
+
+def save_json(path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, indent=2))
+
+
+# ---- Site generation -------------------------------------------------------
+
+def render_site(feed):
+    entries_html = []
+    if not feed:
+        entries_html.append("<p class='empty'>No new parkas spotted yet — check back soon.</p>")
+    for entry in feed:
+        items_html = "\n".join(
+            f"""<li>
+                <a href="{item['url']}" target="_blank" rel="noopener">{item['name']}</a>
+                <span class="price">{item['price']}</span>
+            </li>"""
+            for item in entry["items"]
+        )
+        entries_html.append(f"""
+        <section class="entry">
+            <h2>{entry['timestamp']}</h2>
+            <ul>{items_html}</ul>
+        </section>
+        """)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FinalCut Parka Watch</title>
+<style>
+  body {{ font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 700px;
+         margin: 40px auto; padding: 0 16px; color: #222; background: #fafafa; }}
+  h1 {{ font-size: 1.5rem; margin-bottom: 0; }}
+  .subtitle {{ color: #666; margin-top: 4px; margin-bottom: 32px; }}
+  .entry {{ background: #fff; border: 1px solid #e5e5e5; border-radius: 8px;
+            padding: 16px 20px; margin-bottom: 20px; }}
+  .entry h2 {{ font-size: 0.9rem; color: #888; margin: 0 0 10px; font-weight: 600; }}
+  ul {{ list-style: none; padding: 0; margin: 0; }}
+  li {{ display: flex; justify-content: space-between; padding: 8px 0;
+        border-top: 1px solid #f0f0f0; }}
+  li:first-child {{ border-top: none; }}
+  a {{ color: #1a1a1a; text-decoration: none; }}
+  a:hover {{ text-decoration: underline; }}
+  .price {{ color: #555; font-variant-numeric: tabular-nums; }}
+  .empty {{ color: #888; }}
+</style>
+</head>
+<body>
+  <h1>🧥 FinalCut Parka Watch</h1>
+  <p class="subtitle">New parkas on shopfinalcut.com, newest first.</p>
+  {"".join(entries_html)}
+</body>
+</html>
+"""
+
+
+# ---- Main -----------------------------------------------------------------
+
+def main():
+    current = fetch_parkas()
+    seen = load_json(STATE_FILE, {})
+
+    new_urls = set(current) - set(seen)
+
+    if new_urls:
+        feed = load_json(FEED_FILE, [])
+        new_entry = {
+            "timestamp": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+            "items": [
+                {"url": url, "name": current[url]["name"], "price": current[url]["price"]}
+                for url in new_urls
+            ],
+        }
+        feed.insert(0, new_entry)  # newest first
+        save_json(FEED_FILE, feed)
+
+        SITE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        SITE_FILE.write_text(render_site(feed))
+        print(f"Found {len(new_urls)} new parka(s) — site updated.")
+    else:
+        print("No new parkas since last check.")
+        # Still make sure the site exists on first-ever run even with 0 new items
+        if not SITE_FILE.exists():
+            feed = load_json(FEED_FILE, [])
+            save_json(FEED_FILE, feed)
+            SITE_FILE.parent.mkdir(parents=True, exist_ok=True)
+            SITE_FILE.write_text(render_site(feed))
+
+    save_json(STATE_FILE, current)
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except requests.RequestException as e:
+        print(f"Fetch failed: {e}", file=sys.stderr)
+        sys.exit(1)
