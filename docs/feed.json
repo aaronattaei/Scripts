@@ -1,5 +1,95 @@
 [
   {
+    "timestamp": "2026-09-19 18:56 UTC",
+    "new": [],
+    "price_drops": [],
+    "restocks": [
+      {
+        "url": "https://www.shopfinalcut.com/en/product/joop-daros-faux-fur-lined-parka-20145820047",
+        "name": "JOOP! Daros Faux-Fur Lined Parka",
+        "sale_price": "$499.99",
+        "original_price": "$950.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20145820047?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "newly_available": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/mackage-kason-twill-down-parka-coat-20183516075",
+        "name": "Mackage Kason Twill Down Parka Coat",
+        "sale_price": "$749.99",
+        "original_price": "$1450.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20183516075?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "newly_available": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/nobis-cardinal-down-puffer-parka-20161344075",
+        "name": "Nobis Cardinal Down Puffer Parka",
+        "sale_price": "$499.99",
+        "original_price": "$995.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20161344075?$thumbnail$",
+        "sizes": [
+          "XS"
+        ],
+        "newly_available": [
+          "XS"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/nobis-cardinal-down-puffer-parka-20161347047",
+        "name": "Nobis Cardinal Down Puffer Parka",
+        "sale_price": "$499.99",
+        "original_price": "$995.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20161347047?$thumbnail$",
+        "sizes": [
+          "XS",
+          "S",
+          "L"
+        ],
+        "newly_available": [
+          "XS",
+          "S",
+          "L"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/hugo-water-repellent-parka-20145122075",
+        "name": "HUGO Water-Repellent Parka",
+        "sale_price": "$374.99",
+        "original_price": "$745.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20145122075?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "newly_available": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-09-19 18:47 UTC",
     "items": [
       {
