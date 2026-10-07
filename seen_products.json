@@ -1,4 +1,77 @@
 {
+  "https://www.shopfinalcut.com/en/product/moose-knuckles-original-stirling-neo-shearling-lined-parka-20174100074": {
+    "name": "Moose Knuckles Original Stirling Neo Shearling-Lined Parka",
+    "sale_price": "$899.99",
+    "original_price": "$1295.00",
+    "sizes": [
+      "S"
+    ]
+  },
+  "https://www.shopfinalcut.com/en/product/moose-knuckles-gold-series-stag-lake-fox-fur-trim-parka-20174146075": {
+    "name": "Moose Knuckles Gold Series Stag Lake Fox Fur-Trim Parka",
+    "sale_price": "$1064.99",
+    "original_price": "$1524.00",
+    "sizes": [
+      "S"
+    ]
+  },
+  "https://www.shopfinalcut.com/en/product/moose-knuckles-stirling-fox-fur-trim-parka-20174157047": {
+    "name": "Moose Knuckles Stirling Fox Fur-Trim Parka",
+    "sale_price": "$974.99",
+    "original_price": "$1395.00",
+    "sizes": [
+      "S",
+      "M"
+    ]
+  },
+  "https://www.shopfinalcut.com/en/product/moose-knuckles-saint-ulric-2-down-parka-20174123038": {
+    "name": "Moose Knuckles Saint-Ulric 2 Down Parka",
+    "sale_price": "$899.99",
+    "original_price": "$1295.00",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "https://www.shopfinalcut.com/en/product/moose-knuckles-gold-series-stag-fox-fur-trim-lake-parka-20174147075": {
+    "name": "Moose Knuckles Gold Series Stag Fox-Fur Trim Lake Parka",
+    "sale_price": "$1064.99",
+    "original_price": "$1524.00",
+    "sizes": [
+      "S",
+      "XL"
+    ]
+  },
+  "https://www.shopfinalcut.com/en/product/moose-knuckles-stirling-fox-fur-trim-parka-20174155075": {
+    "name": "Moose Knuckles Stirling Fox Fur-Trim Parka",
+    "sale_price": "$974.99",
+    "original_price": "$1395.00",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  "https://www.shopfinalcut.com/en/product/moose-knuckles-stirling-fox-fur-trim-parka-20174156075": {
+    "name": "Moose Knuckles Stirling Fox Fur-Trim Parka",
+    "sale_price": "$599.99",
+    "original_price": "$1395.00",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ]
+  },
+  "https://www.shopfinalcut.com/en/product/moose-knuckles-original-stirling-neo-shearling-lined-parka-20174103074": {
+    "name": "Moose Knuckles Original Stirling Neo Shearling-Lined Parka",
+    "sale_price": "$899.99",
+    "original_price": "$1295.00",
+    "sizes": [
+      "S"
+    ]
+  },
   "https://www.shopfinalcut.com/en/product/joop-daros-faux-fur-lined-parka-20145820047": {
     "name": "JOOP! Daros Faux-Fur Lined Parka",
     "sale_price": "$499.99",
