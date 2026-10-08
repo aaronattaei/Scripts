@@ -1,5 +1,74 @@
 [
   {
+    "timestamp": "2026-10-08 18:29 UTC",
+    "new": [
+      {
+        "url": "https://www.shopfinalcut.com/en/product/moorer-2-in-1-hooded-parka-20198293075",
+        "name": "Moorer 2-in-1 Hooded Parka",
+        "sale_price": "$2499.99",
+        "original_price": "$4395.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20198293075?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/moorer-double-breasted-fur-trim-quilted-parka-20198295075",
+        "name": "Moorer Double-Breasted Fur-Trim Quilted Parka",
+        "sale_price": "$1799.99",
+        "original_price": "$2760.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20198295075?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/superdry-water-repellent-lightweight-parka-20199485075",
+        "name": "Superdry Water-Repellent Lightweight Parka",
+        "sale_price": "$169.99",
+        "original_price": "$176.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20199485075?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/moorer-hooded-down-parka-20198291075",
+        "name": "Moorer Hooded Down Parka",
+        "sale_price": "$2499.99",
+        "original_price": "$4945.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20198291075?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/moorer-waterproof-down-hooded-parka-20200265074",
+        "name": "Moorer Waterproof Down Hooded Parka",
+        "sale_price": "$2499.99",
+        "original_price": "$4395.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20200265074?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "price_drops": [],
+    "restocks": []
+  },
+  {
     "timestamp": "2026-10-07 23:27 UTC",
     "new": [
       {
