@@ -19,18 +19,6 @@
       "L"
     ]
   },
-  "https://www.shopfinalcut.com/en/product/superdry-water-repellent-lightweight-parka-20199485075": {
-    "name": "Superdry Water-Repellent Lightweight Parka",
-    "sale_price": "$169.99",
-    "original_price": "$176.00",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ]
-  },
   "https://www.shopfinalcut.com/en/product/moorer-hooded-down-parka-20198291075": {
     "name": "Moorer Hooded Down Parka",
     "sale_price": "$2499.99",
@@ -124,20 +112,32 @@
       "S"
     ]
   },
-  "https://www.shopfinalcut.com/en/product/joop-daros-faux-fur-lined-parka-20145820047": {
-    "name": "JOOP! Daros Faux-Fur Lined Parka",
-    "sale_price": "$499.99",
-    "original_price": "$950.00",
+  "https://www.shopfinalcut.com/en/product/mackage-kason-twill-down-parka-coat-20183516075": {
+    "name": "Mackage Kason Twill Down Parka Coat",
+    "sale_price": "$749.99",
+    "original_price": "$1450.00",
     "sizes": [
       "S",
       "M",
       "L"
     ]
   },
-  "https://www.shopfinalcut.com/en/product/mackage-kason-twill-down-parka-coat-20183516075": {
-    "name": "Mackage Kason Twill Down Parka Coat",
-    "sale_price": "$749.99",
-    "original_price": "$1450.00",
+  "https://www.shopfinalcut.com/en/product/superdry-water-repellent-lightweight-parka-20199485075": {
+    "name": "Superdry Water-Repellent Lightweight Parka",
+    "sale_price": "$169.99",
+    "original_price": "$176.00",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  "https://www.shopfinalcut.com/en/product/joop-daros-faux-fur-lined-parka-20145820047": {
+    "name": "JOOP! Daros Faux-Fur Lined Parka",
+    "sale_price": "$499.99",
+    "original_price": "$950.00",
     "sizes": [
       "S",
       "M",
