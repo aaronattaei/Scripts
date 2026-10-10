@@ -1,5 +1,25 @@
 [
   {
+    "timestamp": "2026-10-10 04:36 UTC",
+    "new": [
+      {
+        "url": "https://www.shopfinalcut.com/en/product/hugo-water-repellent-parka-20145122075",
+        "name": "HUGO Water-Repellent Parka",
+        "sale_price": "$374.99",
+        "original_price": "$745.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20145122075?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "price_drops": [],
+    "restocks": []
+  },
+  {
     "timestamp": "2026-10-08 18:29 UTC",
     "new": [
       {
