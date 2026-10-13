@@ -1,5 +1,26 @@
 [
   {
+    "timestamp": "2026-10-13 22:30 UTC",
+    "new": [],
+    "price_drops": [],
+    "restocks": [
+      {
+        "url": "https://www.shopfinalcut.com/en/product/nobis-cardinal-down-puffer-parka-20161344075",
+        "name": "Nobis Cardinal Down Puffer Parka",
+        "sale_price": "$499.99",
+        "original_price": "$995.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20161344075?$thumbnail$",
+        "sizes": [
+          "XS",
+          "L"
+        ],
+        "newly_available": [
+          "L"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-10-10 04:36 UTC",
     "new": [
       {
