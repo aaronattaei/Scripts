@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-15 13:06 UTC",
+    "new": [],
+    "price_drops": [],
+    "restocks": [
+      {
+        "url": "https://www.shopfinalcut.com/en/product/moose-knuckles-stirling-fox-fur-trim-parka-20174156075",
+        "name": "Moose Knuckles Stirling Fox Fur-Trim Parka",
+        "sale_price": "$599.99",
+        "original_price": "$1395.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20174156075?$thumbnail$",
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L"
+        ],
+        "newly_available": [
+          "M",
+          "L"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-10-15 07:01 UTC",
     "new": [],
     "price_drops": [],
