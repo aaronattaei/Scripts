@@ -1,5 +1,27 @@
 [
   {
+    "timestamp": "2026-10-15 07:01 UTC",
+    "new": [],
+    "price_drops": [],
+    "restocks": [
+      {
+        "url": "https://www.shopfinalcut.com/en/product/moose-knuckles-gold-series-stag-fox-fur-trim-lake-parka-20174147075",
+        "name": "Moose Knuckles Gold Series Stag Fox-Fur Trim Lake Parka",
+        "sale_price": "$1064.99",
+        "original_price": "$1524.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20174147075?$thumbnail$",
+        "sizes": [
+          "S",
+          "L",
+          "XL"
+        ],
+        "newly_available": [
+          "L"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-10-13 22:30 UTC",
     "new": [],
     "price_drops": [],
