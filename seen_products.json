@@ -44,7 +44,9 @@
     "sale_price": "$899.99",
     "original_price": "$1295.00",
     "sizes": [
-      "S"
+      "S",
+      "M",
+      "L"
     ]
   },
   "https://www.shopfinalcut.com/en/product/moose-knuckles-gold-series-stag-lake-fox-fur-trim-parka-20174146075": {
@@ -52,7 +54,9 @@
     "sale_price": "$1064.99",
     "original_price": "$1524.00",
     "sizes": [
-      "S"
+      "S",
+      "M",
+      "L"
     ]
   },
   "https://www.shopfinalcut.com/en/product/moose-knuckles-stirling-fox-fur-trim-parka-20174157047": {
@@ -61,7 +65,8 @@
     "original_price": "$1395.00",
     "sizes": [
       "S",
-      "M"
+      "M",
+      "L"
     ]
   },
   "https://www.shopfinalcut.com/en/product/moose-knuckles-saint-ulric-2-down-parka-20174123038": {
@@ -71,8 +76,7 @@
     "sizes": [
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ]
   },
   "https://www.shopfinalcut.com/en/product/moose-knuckles-gold-series-stag-fox-fur-trim-lake-parka-20174147075": {
@@ -81,6 +85,7 @@
     "original_price": "$1524.00",
     "sizes": [
       "S",
+      "M",
       "L"
     ]
   },
@@ -89,9 +94,9 @@
     "sale_price": "$974.99",
     "original_price": "$1395.00",
     "sizes": [
-      "XS",
       "S",
-      "M"
+      "M",
+      "L"
     ]
   },
   "https://www.shopfinalcut.com/en/product/moose-knuckles-stirling-fox-fur-trim-parka-20174156075": {
@@ -99,8 +104,9 @@
     "sale_price": "$599.99",
     "original_price": "$1395.00",
     "sizes": [
-      "XS",
-      "S"
+      "S",
+      "M",
+      "L"
     ]
   },
   "https://www.shopfinalcut.com/en/product/moose-knuckles-original-stirling-neo-shearling-lined-parka-20174103074": {
@@ -108,7 +114,9 @@
     "sale_price": "$899.99",
     "original_price": "$1295.00",
     "sizes": [
-      "S"
+      "S",
+      "M",
+      "L"
     ]
   },
   "https://www.shopfinalcut.com/en/product/mackage-kason-twill-down-parka-coat-20183516075": {
@@ -128,9 +136,7 @@
     "sizes": [
       "S",
       "M",
-      "L",
-      "XL",
-      "XXL"
+      "L"
     ]
   },
   "https://www.shopfinalcut.com/en/product/joop-daros-faux-fur-lined-parka-20145820047": {
@@ -148,15 +154,8 @@
     "sale_price": "$499.99",
     "original_price": "$995.00",
     "sizes": [
-      "XS"
-    ]
-  },
-  "https://www.shopfinalcut.com/en/product/hugo-water-repellent-parka-20145122075": {
-    "name": "HUGO Water-Repellent Parka",
-    "sale_price": "$374.99",
-    "original_price": "$745.00",
-    "sizes": [
       "S",
+      "M",
       "L"
     ]
   }

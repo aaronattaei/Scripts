@@ -1,5 +1,138 @@
 [
   {
+    "timestamp": "2026-10-21 18:25 UTC",
+    "new": [],
+    "price_drops": [],
+    "restocks": [
+      {
+        "url": "https://www.shopfinalcut.com/en/product/moose-knuckles-original-stirling-neo-shearling-lined-parka-20174100074",
+        "name": "Moose Knuckles Original Stirling Neo Shearling-Lined Parka",
+        "sale_price": "$899.99",
+        "original_price": "$1295.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20174100074?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "newly_available": [
+          "M",
+          "L"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/moose-knuckles-gold-series-stag-lake-fox-fur-trim-parka-20174146075",
+        "name": "Moose Knuckles Gold Series Stag Lake Fox Fur-Trim Parka",
+        "sale_price": "$1064.99",
+        "original_price": "$1524.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20174146075?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "newly_available": [
+          "M",
+          "L"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/moose-knuckles-stirling-fox-fur-trim-parka-20174157047",
+        "name": "Moose Knuckles Stirling Fox Fur-Trim Parka",
+        "sale_price": "$974.99",
+        "original_price": "$1395.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20174157047?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "newly_available": [
+          "L"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/moose-knuckles-gold-series-stag-fox-fur-trim-lake-parka-20174147075",
+        "name": "Moose Knuckles Gold Series Stag Fox-Fur Trim Lake Parka",
+        "sale_price": "$1064.99",
+        "original_price": "$1524.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20174147075?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "newly_available": [
+          "M"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/moose-knuckles-stirling-fox-fur-trim-parka-20174155075",
+        "name": "Moose Knuckles Stirling Fox Fur-Trim Parka",
+        "sale_price": "$974.99",
+        "original_price": "$1395.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20174155075?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "newly_available": [
+          "L"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/moose-knuckles-stirling-fox-fur-trim-parka-20174156075",
+        "name": "Moose Knuckles Stirling Fox Fur-Trim Parka",
+        "sale_price": "$599.99",
+        "original_price": "$1395.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20174156075?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "newly_available": [
+          "M",
+          "L"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/moose-knuckles-original-stirling-neo-shearling-lined-parka-20174103074",
+        "name": "Moose Knuckles Original Stirling Neo Shearling-Lined Parka",
+        "sale_price": "$899.99",
+        "original_price": "$1295.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20174103074?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "newly_available": [
+          "M",
+          "L"
+        ]
+      },
+      {
+        "url": "https://www.shopfinalcut.com/en/product/nobis-cardinal-down-puffer-parka-20161347047",
+        "name": "Nobis Cardinal Down Puffer Parka",
+        "sale_price": "$499.99",
+        "original_price": "$995.00",
+        "image": "https://i1.adis.ws/i/harryrosen/20161347047?$thumbnail$",
+        "sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "newly_available": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-10-19 19:03 UTC",
     "new": [],
     "price_drops": [],
